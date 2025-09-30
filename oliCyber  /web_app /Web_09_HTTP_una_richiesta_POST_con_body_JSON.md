@@ -9,12 +9,12 @@ But then using JSON to send the information in a POST request to solve the chall
 
 # Method
 We tried this first:
-
+```
 curl -X POST 
      -H "Content-Type: application/json" 
      -d '{"username": "admin","password": "admin"}' 
      -v http://web-09.challs.olicyber.it/login
-
+```
 But it gives an error: 
 
 <!doctype html>
