@@ -13,3 +13,6 @@ curl.exe -X POST -H "Content-Type: application/json"
          -v "http://web-10.challs.olicyber.it/"
 ```
 and got the flag.
+
+We are **allowed** to use other methods like `GET`, `HEAD`, `OPTIONS`,
+But we used the oned that were not allowed.
