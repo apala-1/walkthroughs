@@ -15,4 +15,4 @@ curl.exe -X POST -H "Content-Type: application/json"
 and got the flag.
 
 We are **allowed** to use other methods like `GET`, `HEAD`, `OPTIONS`,
-But we used the oned that were not allowed.
+But we used the ones that were not allowed.
