@@ -31,7 +31,6 @@ Opened powershell and used
 `python`
 
 then we code:
-<pre>
 ```
 import requests
 url = "http://web-09.challs.olicyber.it/login"
@@ -40,6 +39,5 @@ data = '{"username": "admin", "password": "admin"'}'
 r = requests.post(url=url, json=data)
 print(r.text)
 ```
-</pre>
 
 And we got our flag.
